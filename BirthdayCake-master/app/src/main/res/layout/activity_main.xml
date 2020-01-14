@@ -17,7 +17,7 @@
             android:layout_height="wrap_content"
             android:text="Happy Birthday!"
             android:textColor="@color/colorAccent"
-            android:textSize="24sp" />
+            android:textSize="50sp" />
     </LinearLayout>
 
     <LinearLayout
@@ -52,4 +52,11 @@
             android:text="yay..." />
 
     </LinearLayout>
+
+    <Switch
+        android:id="@+id/switch1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Frosting"
+        android:textStyle="bold" />
 </LinearLayout>
